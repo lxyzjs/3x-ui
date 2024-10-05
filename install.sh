@@ -148,7 +148,7 @@ config_after_install() {
         read -p "Please set up the panel port: " config_port
         echo -e "${yellow}Your panel port is: ${config_port}${plain}"
 
-        read -p "Please set up the web base path: " config_port
+        read -p "Please set up the web base path: " config_webBasePath
         echo -e "${yellow}Your web base path will be generated randomly: ${config_webBasePath}${plain}"
 
         echo -e "${yellow}Initializing, please wait...${plain}"
